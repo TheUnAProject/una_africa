@@ -3,6 +3,7 @@
 // Copyright (c) 2014-2018, The Forknote developers
 // Copyright (c) 2018, Ryo Currency Project
 // Copyright (c) 2016-2018, The Karbowanec developers
+// Copyright (c) 2016-2018, The UnA Project
 //
 // This file is part of Bytecoin.
 //
@@ -30,7 +31,7 @@ const uint64_t DIFFICULTY_TARGET                             = 90; // seconds
 const uint64_t CRYPTONOTE_MAX_BLOCK_NUMBER                   = 500000000;
 const size_t   CRYPTONOTE_MAX_BLOCK_BLOB_SIZE                = 500000000;
 const size_t   CRYPTONOTE_MAX_TX_SIZE                        = 1000000000;
-const uint64_t CRYPTONOTE_PUBLIC_ADDRESS_BASE58_PREFIX       = 0x198d23; // addresses start with "K"
+const uint64_t CRYPTONOTE_PUBLIC_ADDRESS_BASE58_PREFIX       = 0x198d23; // addresses start with "UNA"
 const size_t   CRYPTONOTE_MINED_MONEY_UNLOCK_WINDOW          = 14;
 const size_t   CRYPTONOTE_TX_SPENDABLE_AGE                   = 6;
 const uint64_t CRYPTONOTE_BLOCK_FUTURE_TIME_LIMIT            = DIFFICULTY_TARGET * 7;
